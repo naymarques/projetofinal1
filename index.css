@@ -95,7 +95,7 @@ button:hover{
   cursor: pointer;
 }
 
-@media(max-width: 820px) {
+@media(max-width: 787px) {
 
   h1{
     width: 100vw;
@@ -111,12 +111,12 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100vw;
     height: 80vh;
     padding:0;
-    color: black;
-    font-size: x-large;
+    color:  #7f4f24;
+    font-size: 20px;
   }
 
  button{
@@ -147,6 +147,8 @@ button:hover{
     width: 80vw;
     height: 40vh;
     padding:0;
+    color: darkred;
+    font-weight: bolder;
   }
 
   header, footer{
@@ -159,5 +161,9 @@ button:hover{
     background-size:auto;
     background-position: center; 
     background-size: cover; 
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
