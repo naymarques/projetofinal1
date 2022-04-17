@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  font-family: 'Josefin Slab', serif;
+}
+
+#conteiner{
+  width: 100vw;
+  color: #7f4f24;
+  height: 90vh;
+  background-size: cover;
+  background-image: url(bg_escolha_personagem.webp);
+}
+
+header{
+  width: 100vw;
+  background-color: #7f4f24;
+  height: 5vh;
+}
+
+footer{
+  width: 100vw;
+  background-color: #7f4f24;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  color: black;
+}
+
+h1{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+#personagens{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-around;
+  align-items:center ;
+  width: 100vw;
+  height: 80vh;
+}
+
+#personagem1, #personagem2, #personagem3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 20rem;
+  height: 20rem;
+}
+
+img{
+  border-radius: 500px;
+  object-fit: cover;
+  transition: 1s;
+  width: 20rem;
+  height: 20rem;
+}
+
+
+#personagem1:hover, #personagem2:hover, #personagem3:hover{
+  cursor: pointer;
+  transition: 1s;
+  width: 35rem;
+  height: 35rem;
+}
+
+h3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 10rem;
+  font-size: 2rem;
+}

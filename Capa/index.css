@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  font-family: 'Josefin Slab', serif;
+}
+
+#conteiner{
+  width: 100vw;
+  color: #7f4f24;
+  height: 90vh;
+  background-size: cover;
+  background-image: url(a-lenda-de-korra-livro-1-ar-plano-critico.jpg);
+}
+
+header{
+  width: 100vw;
+  background-color: #7f4f24;
+  height: 5vh;
+}
+
+footer{
+  width: 100vw;
+  background-color: #7f4f24;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  color: black;
+}
+
+h1{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#texto{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 80vh;
+}
+
+#localizacao{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 40vw;
+  height: 40vh;
+  padding-left: 5%;
+}
+
+#historia{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 35vw;
+  height: 40vh;
+  padding-right: 5%;
+}
+
+button{
+  background-color: #4e5169;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 10vh;
+  color: black;
+  font-size: xx-large;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #121218;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 10vh;
+  color: #7f4f24;
+  font-size: 50px;
+  transition:  0.5s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media(max-width: 800px) {
+
+  h1{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  #texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 80vh;
+    padding:0;
+    opacity: 0,5;
+    color: #7f4f24;
+    font-size: 20px;
+  }
+
+ button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #4e5169;
+    font-weight: bold;
+  }
+
+  #localizacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 40vh;
+    padding:0;
+  }
+
+  #historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 40vh;
+    padding:0;
+    color: #7f4f24;
+    font-weight: bolder;
+  }
+
+  header, footer{
+    display: none;
+  }
+
+  #conteiner{
+    height: 100vh;
+    width: 100vw;
+    background-size:auto;
+    background-position: center; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media(max-width: 600px) {
+
+  h1{
+    font-size: 30px;
+  }
+
+  #texto{
+    font-size: 20px;
+  }
+}
