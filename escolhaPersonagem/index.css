@@ -91,3 +91,67 @@ h3{
   height: 10rem;
   font-size: 2rem;
 }
+
+@media(max-width: 700px) {
+  header, footer{
+    display: none;
+  }
+
+  #conteiner{
+    height: 100vh;
+    width: 100vw;
+    background-position: center; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+  
+  h2{
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  #personagens{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    align-items:center;
+    width: 100vw;
+    height: 85vh;
+  }
+
+  #personagem1, #personagem2, #personagem3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vw;
+    height: 20vh;
+    object-fit: cover;
+  }
+
+  img{
+    border-radius: 500px;
+    object-fit: cover;
+    width: 20vw;
+    height: 15vh;
+  }
+
+}
