@@ -8,7 +8,7 @@
   color: #7f4f24;
   height: 90vh;
   background-size: cover;
-  background-image: url(bg_escolha_personagem.webp);
+  background-image: url(bgKorraFaseUm.webp);
 }
 
 header{
@@ -39,55 +39,41 @@ h1{
 }
 
 h2{
-  width: 100vw;
-  height: 5vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-}
-
-#personagens{
-  display: flex;
-  flex-direction: row;  
-  justify-content: space-around;
-  align-items:center ;
-  width: 100vw;
-  height: 75vh;
-}
-
-#personagem1, #personagem2, #personagem3{
+  width: 50vw;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  width: 20rem;
-  height: 20rem;
+  font-size: 1.5rem;
+  padding: 2rem;
 }
 
-img{
-  border-radius: 500px;
-  object-fit: cover;
-  transition: 1s;
-  width: 20rem;
-  height: 20rem;
-}
-
-
-#personagem1:hover, #personagem2:hover, #personagem3:hover{
-  cursor: pointer;
-  transition: 1s;
-  width: 25rem;
-  height: 25rem;
-}
-
-h3{
+button{
+  background-color: #4e5169;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 20rem;
-  height: 10rem;
-  font-size: 2rem;
+  width: 20vw;
+  height: 10vh;
+  color: black;
+  font-size: xx-large;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #121218;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 10vh;
+  color: #7f4f24;
+  font-size: 50px;
+  transition:  0.5s;
+  border-radius: 10px;
+  cursor: pointer;
 }
