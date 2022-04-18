@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  font-family: 'Josefin Slab', serif;
+}
+
+#conteiner{
+  width: 100vw;
+  color: #7f4f24;
+  height: 90vh;
+  background-size: cover;
+  background-image: url(bgAmomvitoria.webp);
+}
+
+header{
+  width: 100vw;
+  background-color: #7f4f24;
+  height: 5vh;
+}
+
+footer{
+  width: 100vw;
+  background-color: #7f4f24;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  color: black;
+}
+
+h1{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+h2{
+  background-color: rgba(0, 0, 0, 0.77);
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
