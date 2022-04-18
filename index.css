@@ -96,6 +96,11 @@ button:hover{
   cursor: pointer;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 @media(max-width: 800px) {
 
   h1{
