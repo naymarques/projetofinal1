@@ -7,8 +7,12 @@
   width: 100vw;
   color: black;
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   background-size: cover;
-  background-image: url(bgErro.webp);
+  background-image: url(./erro.gif);
 }
 
 header{
@@ -49,13 +53,13 @@ h1{
 
 h2{
   background-color: #7f4e2468;
-  width: 40vw;
+  width: 80vw;
   height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   margin-left: 1rem;
 }
 
@@ -65,12 +69,13 @@ button{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 20vw;
+  width: 30vw;
   height: 10vh;
   color: black;
   font-size: xx-large;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 2rem;
 }
 
 button:hover{
@@ -82,7 +87,7 @@ button:hover{
   width: 25vw;
   height: 15vh;
   color: #7f4f24;
-  font-size: 40px;
+  font-size: 2.5rem;
   transition:  0.5s;
   border-radius: 10px;
   cursor: pointer;
@@ -93,10 +98,82 @@ a {
   text-decoration: inherit;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
 
-header, footer{
-  display: none;
+  h1{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  #texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 80vh;
+    padding:0;
+    opacity: 0,5;
+    color: black;
+    font-size: 2.5rem;
+  }
+
+ button{
+  background-color: #4e5169;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 10vh;
+  color: black;
+  font-size: xx-large;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  }
+
+  header, footer{
+    display: none;
+  }
+
+  #conteiner{
+    height: 100vh;
+    width: 100vw;
+    background-size:auto;
+    background-position: center; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
 }
 
+@media(max-width: 600px) {
+
+  h1{
+    font-size: 30px;
+  }
+
+  #texto{
+    font-size: 20px;
+  }
+
+  button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #4e5169;
+    font-size: 2rem;
+    width: 30vw;
+    height: 20vh;
+  }
 }

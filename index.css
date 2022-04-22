@@ -5,7 +5,7 @@
 
 #conteiner{
   width: 100vw;
-  color: #7f4f24;
+  color: black;
   height: 90vh;
   background-size: cover;
   background-image: url(Capa/a-lenda-de-korra-livro-1-ar-plano-critico.jpg);
@@ -40,6 +40,7 @@ h1{
 
 #texto{
   display: flex;
+  color: black;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -48,6 +49,7 @@ h1{
 }
 
 #localizacao{
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -58,6 +60,7 @@ h1{
 }
 
 #historia{
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -122,7 +125,7 @@ a {
     height: 80vh;
     padding:0;
     opacity: 0,5;
-    color: #7f4f24;
+    color: black;
     font-size: 20px;
   }
 
@@ -144,6 +147,7 @@ a {
     width: 80vw;
     height: 40vh;
     padding:0;
+    color: black;
   }
 
   #historia{
@@ -154,7 +158,7 @@ a {
     width: 80vw;
     height: 40vh;
     padding:0;
-    color: #7f4f24;
+    color: black;
     font-weight: bolder;
   }
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +14,6 @@
     <title>A Lenda de Korra - Um minigame</title>
   </head>
   <body>
-    <script src="index.js"></script>
     <header></header>
     <div id="conteiner">
       <h1>A missão de Korra</h1>
@@ -29,9 +28,12 @@
           enfrentar a cidade grande.
         </p>
         <p>Korra seguirá para esse novo desafio?</p>
-        <button id="responder"><a>Responder</a></button>
+        <p>1. Sim, Korra se muda para a cidade.</p>
+        <p>2. Não. Korra prefere ficar em sua tribo.</p>
+        <button onclick="korraFase2()"><a>Responder</a></button>
       </h2>
     </div>
     <footer>Projeto pra fins educacionais</footer>
+    <script src="../../Fases/index.js"></script>
   </body>
 </html>

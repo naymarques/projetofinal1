@@ -5,10 +5,14 @@
 
 #conteiner{
   width: 100vw;
-  color: #7f4f24;
+  color: black;
   height: 90vh;
   background-size: cover;
-  background-image: url(bgAsamiVitoria.webp;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(./bgAsamiVitoria.webp)
 }
 
 header{
@@ -39,12 +43,59 @@ h1{
 }
 
 h2{
-  width: 60vw;
-  height: 30vh;
+  background-color: #7f4e248c;
+  width: 80vw;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  font-size: 2rem;
-  padding: 2rem;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+
+@media(max-width: 800px) {
+
+  header, footer{
+    display: none;
+  }
+  
+  #conteiner{
+    width: 100vw;
+    color: black;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  h1{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+  h2{
+    width: 80vw;
+    height: 70vh;
+  }
+
+}
+
+@media(max-width: 600px) {
+  h1{
+    font-size: 30px;
+  }
+
+  #texto{
+    font-size: 20px;
+  }
+
 }
