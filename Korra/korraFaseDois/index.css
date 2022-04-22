@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-around;
   background-image: url(./bgKorraFasedois.webp);
+  background-position: top center;
 }
 
 header{
@@ -94,13 +95,14 @@ button:hover{
     width: 100vw;
     color: black;
     height: 100vh;
-    background-size: cover;
     background-position: top;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-position: 50% 0%;
   }
+
   h1{
     width: 100vw;
     height: 20vh;
