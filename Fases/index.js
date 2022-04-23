@@ -74,7 +74,7 @@ function asamiFase2() {
     var option = prompt('Escolha sua resposta')
     if (option == '2') {
       alert('Você acertou')
-      window.location.href = '../asamiFaseTres/index.html'
+      window.location.href = '../asamiFaseDois/index.html'
       break
     } else if (option == '1') {
       if (contador >= 2) {
@@ -94,11 +94,11 @@ function asamiFase3() {
   var contador = 0
   while (true) {
     var option = prompt('Escolha sua resposta')
-    if (option == '2') {
+    if (option == '1') {
       alert('Você acertou')
       window.location.href = '../AsamiFaseTres/index.html'
       break
-    } else if (option == '1') {
+    } else if (option == '2') {
       if (contador >= 2) {
         window.location.href = '../../Erro/index.html'
         break
@@ -142,7 +142,7 @@ function amonFase2() {
     var option = prompt('Escolha sua resposta')
     if (option == '1') {
       alert('Você acertou')
-      window.location.href = '../amonFaseTres/index.html'
+      window.location.href = '../AmonFaseDois/index.html'
       break
     } else if (option == '2') {
       if (contador >= 2) {
@@ -164,7 +164,7 @@ function amonFase3() {
     var option = prompt('Escolha sua resposta')
     if (option == '1') {
       alert('Você acertou')
-      window.location.href = '../AsamiFaseTres/index.html'
+      window.location.href = '../AmonFaseTres/index.html'
       break
     } else if (option == '2') {
       if (contador >= 2) {
