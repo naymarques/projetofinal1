@@ -186,7 +186,7 @@ function amonVitoria() {
     var option = prompt('Escolha sua resposta')
     if (option == '1') {
       alert('Você acertou')
-      window.location.href = '../amonVitoria/index.html'
+      window.location.href = '../AmonVitoria/index.html'
       break
     } else if (option == '2') {
       if (contador >= 1) {
