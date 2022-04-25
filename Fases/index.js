@@ -74,7 +74,7 @@ function asamiFase2() {
     var option = prompt('Escolha sua resposta')
     if (option == '2') {
       alert('Você acertou')
-      window.location.href = '../asamiFaseDois/index.html'
+      window.location.href = '../AsamiFaseDois/index.html'
       break
     } else if (option == '1') {
       if (contador >= 2) {
